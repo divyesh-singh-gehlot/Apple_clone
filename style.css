@@ -111,18 +111,23 @@ ul{
     background-color: #f5f5f7;
     margin-top: 1.5vh;
     margin-bottom: 1.5vh;
-    height: 80vh;
+    height: 90vh;
+    overflow: hidden;
 }
 .light h2{
+    position: relative;
     color: black;
     font-size: 56px;
     padding-top: 5vh;
     text-align: center;
+    z-index: 10;
 }
 .light .text1{
     color: black;
     font-size: 28px;
     text-align: center;
+    position: relative;
+    z-index: 9;
 }
 .light .text2{
     color: #6e6e73;
@@ -130,6 +135,8 @@ ul{
     text-align: center;
     margin-top: 8px;
     font-weight: 400;
+    position: relative;
+    z-index: 8;
 }
 .light .button1{
     color: white;
@@ -138,6 +145,8 @@ ul{
     padding:1.5vh 1.6vw;
     border-radius: 50px;
     font-size: 19px;
+    position: relative;
+    z-index: 7;
 }
 .light .button2{
     color: #2997ff;
@@ -146,4 +155,7 @@ ul{
     padding:1.5vh 1.6vw;
     border-radius: 50px;
     font-size: 18px;
+    position: relative;
+    z-index: 6;
 }
+
