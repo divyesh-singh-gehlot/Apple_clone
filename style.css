@@ -3,8 +3,12 @@
     padding: 0;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+.nav{
+    position: fixed;
+}
 .container{
     background-color: #1a1616;
+    opacity: 0.9;
 }
 .nav-bar{
     display: flex;
@@ -42,18 +46,18 @@ ul{
 .section-2{
     background-color: black;
 }
-.upper-section h2{
+.dark h2{
     color: white;
     font-size: 56px;
     padding-top: 5vh;
     text-align: center;
 }
-.upper-section .text1{
+.dark .text1{
     color: white;
     font-size: 28px;
     text-align: center;
 }
-.upper-section .text2{
+.dark .text2{
     color: #6e6e73;
     font-size: 19px;
     text-align: center;
@@ -66,7 +70,7 @@ ul{
     gap:2vw;
     margin-top: 2vh;
 }
-.buttons .button1{
+.button1{
     color: white;
     border: none;
     background-color: #0071e3;
@@ -74,7 +78,7 @@ ul{
     border-radius: 50px;
     font-size: 19px;
 }
-.buttons .button2{
+.dark .button2{
     color: #2997ff;
     background-color: black;
     border-color: #2997ff;
@@ -83,7 +87,7 @@ ul{
     font-size: 18px;
 }
 .img img{
-    margin: 0vh 12.5vw auto;
+    margin: 0vh 12.3vw auto;
 }
 .lower-section{
     height: 12vh;
@@ -102,4 +106,44 @@ ul{
     font-size: 14px;
     margin-top: 0.5vh;
     margin-bottom: 5vh;
+}
+.section-3{
+    background-color: #f5f5f7;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    height: 80vh;
+}
+.light h2{
+    color: black;
+    font-size: 56px;
+    padding-top: 5vh;
+    text-align: center;
+}
+.light .text1{
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+.light .text2{
+    color: #6e6e73;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 400;
+}
+.light .button1{
+    color: white;
+    border: none;
+    background-color: #0071e3;
+    padding:1.5vh 1.6vw;
+    border-radius: 50px;
+    font-size: 19px;
+}
+.light .button2{
+    color: #2997ff;
+    background-color: white;
+    border-color: #2997ff;
+    padding:1.5vh 1.6vw;
+    border-radius: 50px;
+    font-size: 18px;
 }
